@@ -107,7 +107,7 @@ while True:
 		if mask < withoutMask:
 			label="No Mask"
 			
-			path="C:/Users/beema/PAAVAM/Mask/Images"
+			path="C:/Users/beema/majorProject/Face-Mask/images"
 			
 			cv2.imwrite(os.path.join(path,str(i)+".jpg"),frame[startY:endY,startX:endX])
 			i+=1

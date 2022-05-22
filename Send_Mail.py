@@ -11,7 +11,7 @@ msg['subject']='Project'
 msg['From']='teamate'
 msg['To']='beemaganiaravindh@gmail.com,pavankalyan0702@gmail.com,nanduchapati@gmail.com'
 
-for files in Path("C:/Users/beema/PAAVAM/MaskImages").glob('**/*'):
+for files in Path("C:/Users/beema/majorProject/Face-Mask/images").glob('**/*'):
     with open (files,"rb") as f:
         data=f.read()
         name=f.name
